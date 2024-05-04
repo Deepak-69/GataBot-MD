@@ -7,12 +7,12 @@ let chat = global.db.data.chats[m.chat]
 let name = conn.getName(m.sender)
 if (chat.isBanned) return
 let vn = 'https://qu.ax/Ocxm.mp3'
-let bot = `${pickRandom([`*¡𝑬𝒚! 𝑨𝒒𝒖í 𝒆𝒔𝒕𝒐𝒚. 𝒀𝒐 𝒑𝒖𝒆𝒅𝒐 𝒂𝒚𝒖𝒅𝒂𝒓 👉👈 𝑯𝒆𝒚! 𝑰'𝒎 𝒉𝒆𝒓𝒆. 𝑰 𝒄𝒂𝒏 𝒉𝒆𝒍𝒑 🙌*`, `Aqui estoy | Here I am 😼`, `*Hola Aqui estoy yo puedo ayudar? | Hello, here I am, can I help? 😸*`])}`.trim()
+let bot = `${pickRandom([`*¡👉👈 𝑯𝒆𝒚! 𝑰'𝒎 𝒉𝒆𝒓𝒆. 𝑰 𝒄𝒂𝒏 𝒉𝒆𝒍𝒑 🙌*`, `Aqui estoy | Here I am 😼`, `*Hello, I_m here how can i help you? | Hello, here I am, can I help? 😸*`])}`.trim()
 let txt = `*\`💫 Te presentamos un nuevo hosting: "Infinity-Wa Host"\`*
 
-*¿Muy lento tu nokia y necesitas tener activo tu bot 24/7?*
+*¿Your Nokia is very slow and you need to have your bot active 24/7?*
 
-> *Te tenemos la mejor opción para mantener activo tu bot 24/7, a precios muy accesibles. Es muy barato y todos pueden comprar.*
+> *We have the best option for you to keep your bot active 24/7, at very affordable prices. It is very cheap and everyone can buy.*
 
 *🚩Precios :*
 * 1GB, 100 CPU = 1Dolar
@@ -21,9 +21,9 @@ let txt = `*\`💫 Te presentamos un nuevo hosting: "Infinity-Wa Host"\`*
 * 4GB, 175 CPU = 4Dolar
 * 5GB, 200 CPU = 5 Dólar. 
 
-🟢 \`\`\`Información del Host\`\`\`
+🟢 \`\`\`Host Information\`\`\`
 
-💻 *Página:*
+💻 *Page:*
 https://live.panel-infinitywa.store
 
 *🟢 Dashboard:*
@@ -58,7 +58,7 @@ isForwarded: false,
 "showAdAttribution": true,
 "containsAutoReply": true,
 title: `🤖 𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐘𝐖𝐀-𝐇𝐎𝐒𝐓 🤖`,
-body: `✅ Hosting de Calidad`,
+body: `✅ Quality Hosting`,
 "previewType": "PHOTO",
 thumbnailUrl: 'https://qu.ax/EQTd.jpg', 
 sourceUrl: accountsgb}}},
@@ -87,29 +87,29 @@ conn.reply(m.chat, `*╭┅〘 ⚠️ 𝗢𝗯𝗲𝗱𝗲𝗰𝗲 𝗹𝗮𝘀 
 ➽❌ 𝐑𝐞𝐬𝐩𝐞𝐭𝐚 𝐥𝐨𝐬 𝐭𝐞𝐫𝐦𝐢𝐧𝐨𝐬 𝐲 𝐜𝐨𝐧𝐝𝐢𝐜𝐢𝐨𝐧𝐞𝐬
 *╰═┅ৡৢ͜͡✦═╡ 𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨 ╞═┅ৡৢ͜͡✦═╯*`, fkontak, m)}
 
-if (/^Quiero un bot|como obtengo un bot?|Quiero un bot?|quiero un bot|solicitud|solicitó bot|solicito bot|Necesito un bot|necesito un bot$/i.test(m.text) ) {
+if (/^I want a bot|how do I get a bot?|I want a bot?|I want a bot|solicitud|solicitó bot|solicito bot|Necesito un bot|necesito un bot$/i.test(m.text) ) {
 conn.reply(m.chat,  `\`⚡¿Quieres un bot para tu grupo?\`
 
-*🐈 Tiene varias opciones. Puedes instalarlo tú mismo siguiendo los pasos de instalación:*
+*🐈To install bot :*
 * #instalarbot
 
-*🧡 Puede hacerte un sub bot mandando el siguiente comando:*
+*🧡type ser bot :*
 * #serbot (escanea el QR) 
 * #jadibot --code (Código de 8 dígitos)
 
-*💖 Puedes solicitarlo haciendo una donación voluntaria a través de PayPal o Mercado Pago arg.*
+*💖 You can request it.*
 
-> 🚀 El bot estará activo 24/7 para tu grupo.
+> 🚀 The bot will be active 24/7 for your group.
 
-\`⚡ ¿Por dónde puedo donar?\`
-> A través de nuestro PayPal o Mercado Pago.
+\`⚡ ¿Where can I donate??\`
+> Through our PayPal or Mercado Pago.
 
 *❇️PayPal:*
-• https://www.paypal.com/paypalme/OficialGD
+• https://www.paypal.com/paypalme/dipak-69
 
-*❇️Mercado pago:*
+*❇️Payment market:*
 
-*• Alias :* OficialGB
+*• Alias :* Dipak-69
 *• CVU :* 0000003100059201491917
 
 \`⏩ Siguiente paso ⏩\`
