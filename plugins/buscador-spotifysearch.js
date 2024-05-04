@@ -1,12 +1,12 @@
 import axios from 'axios'
 
 let handler = async (m, { conn, text, usedPrefix, command }) => {
-if (!text) throw `${lenguajeGB['smsAvisoMG']()}𝙄𝙉𝙂𝙍𝙀𝙎𝙀 𝙀𝙇 𝙉𝙊𝙈𝘽𝙍𝙀 𝘿𝙀 𝘼𝙇𝙂𝙐𝙈 𝘼𝙍𝙏𝙄𝙎𝙏𝘼 𝘿𝙀 𝙎𝙋𝙊𝙏𝙄𝙁𝙔\n𝙀𝙅𝙀𝙈𝙋𝙇𝙊:\n${usedPrefix + command} tini`
+if (!text) throw `${lenguajeGB['smsAvisoMG']()}*ACCHE SE LIKHO BRO*\n*EXAMPLE*:\n${usedPrefix + command} tini`
 try {
 let resultados = await spotifyxv(text)
 let res = resultados.map((v, i) => {
 let duracion = timestamp(v.duracion)
-return `[${i + 1}]\n❤️꙰༻ *TÍTULO:* ${v.nombre}\n⁖👤༻ *ARTISTAS:* ${v.artistas.join(', ')}\n⁖🗂️༻ *ÁLBUM:* ${v.album}\n⁖⏰༻ *DURACIÓN:* ${duracion}\n📎꙰༻ *LINK:* ${v.url}\n\n••••••••••••••••••••••••••••••••••••\n`
+return `[${i + 1}]\n❤️꙰༻ *TITLE:* ${v.nombre}\n⁖👤༻ *ARTISTS:* ${v.artistas.join(', ')}\n⁖🗂️༻ *ALBUM:* ${v.album}\n⁖⏰༻ *DURATION:* ${duracion}\n📎꙰༻ *LINK:* ${v.url}\n\n••••••••••••••••••••••••••••••••••••\n`
 }).join('\n')
 if (res) {
 if (!global.spotifyList) {
