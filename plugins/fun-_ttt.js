@@ -65,7 +65,7 @@ let expp2 = Math.floor(Math.random() * 2500)
 
 let winner = isSurrender ? room.game.currentTurn : room.game.winner
 let str = `
-🫂 𝙅𝙐𝙂𝘼𝘿𝙊𝙍𝙀𝙎 *:* 𝙋𝙇𝘼𝙔𝙀𝙍𝙎
+🫂 𝙋𝙇𝘼𝙔𝙀𝙍𝙎 *:* 𝙋𝙇𝘼𝙔𝙀𝙍𝙎
 *┈┈┈┈┈┈┈┈┈*
 ❎ = @${room.game.playerX.split('@')[0]}
 ⭕ = @${room.game.playerO.split('@')[0]}
@@ -74,7 +74,7 @@ let str = `
      ${arr.slice(3, 6).join('')}
      ${arr.slice(6).join('')}
 *┈┈┈┈┈┈┈┈┈*
-${isWin ? `@${(isSurrender ? room.game.currentTurn : room.game.winner).split('@')[0]} 😎🏆 *GANASTE!!*\n*POR HABER GANADO OBTIENES*\n\n💎 *${dia2} Diamantes*\n🪙 *${tok2} Tokens*\n🐈 *${gata2} GataCoins*\n⚡ *${expp2} Exp*` : isTie ? `*EMPATE!!* 🤨\n*POR TERMINAR EN EMPATE AMBOS OBTIENEN*\n\n💎 *${dia} Diamantes*\n🪙 *${tok} Tokens*\n🐈 *${gata} GataCoins*\n⚡ *${expp} Exp*` : `🪄 *TURNO DE* @${room.game.currentTurn.split('@')[0]}`}
+${isWin ? `@${(isSurrender ? room.game.currentTurn : room.game.winner).split('@')[0]} 😎🏆 *WON!!*\n*YOU RECIVED DIMOMD*\n\n💎 *${dia2} Diamonds*\n🪙 *${tok2} Tokens*\n🐈 *${gata2} GlitchCoins*\n⚡ *${expp2} Exp*` : isTie ? `*A TIE!!* 🤨\n*BY FINISH IN A TIE BOTH GET*\n\n💎 *${dia} Diamonds*\n🪙 *${tok} Tokens*\n🐈 *${gata} GlitchCoins*\n⚡ *${expp} Exp*` : `🪄 *SHIFT OF* @${room.game.currentTurn.split('@')[0]}`}
 `.trim()
 let users = global.db.data.users
 if ((room.game._currentTurn ^ isSurrender ? room.x : room.o) !== m.chat)
