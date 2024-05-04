@@ -5,7 +5,7 @@ let handler = async (m, { conn, usedPrefix, command, text }) => {
   if (!teks) throw `️${lenguajeGB['smsAvisoMG']()}${mid.smsMalused}`;
   try {
     let res = await BuscarLetra(text);
-    let { titulo, artista, albulm, fecha, Generos, letra } = res;
+    let { qualification, artist, album, date, Generous, letter } = res;
     let txt = `*𝙂𝙊𝙊𝙂𝙇𝙀 𝙇𝙔𝙍𝙄𝘾𝙎 🪴*\n\n`;
     txt += ` *↬ ${mid.smsYT1}:* ${titulo}\n`;
     txt += ` *↬ ${mid.smsYT6}:* ${artista}\n`;
