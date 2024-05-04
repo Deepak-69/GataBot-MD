@@ -10,7 +10,7 @@ if (!db.data.chats[m.chat].game) throw `${lenguajeGB['smsAvisoAG']()}𝙇𝙊�
 conn.tekateki = conn.tekateki ? conn.tekateki : {}
 let id = m.chat
 if (id in conn.tekateki) {
-conn.reply(m.chat, 'Todavía hay un juegos sin responder en este chat', conn.tekateki[id][0])
+conn.reply(m.chat, 'Still hay and games sin responder in It is chat', conn.tekateki[id][0])
 throw false
 }
 
@@ -86,7 +86,7 @@ let caption = `
 *• Tiempo:* ${(timeout / 1000).toFixed(2)} segundos
 *• Bono:* +${poin} Exp
 
-✨ Responde a este mensaje con la palabra correcta ✨
+✨  yoooo✨
 `.trim()
 conn.tekateki[id] = [
 await conn.reply(m.chat, caption, m),
