@@ -18,10 +18,10 @@ for await (const chunk of media) {
 buffer = Buffer.concat([buffer, chunk])}
 const fileSize = formatFileSize(msg[type].fileLength)
 const description = `
-🕵️‍♀️ *ANTI VER UNA VEZ* 🕵️\n
-🚫 *No ocultar* ${type === 'imageMessage' ? '`Imagen` 📷' : type === 'videoMessage' ? '`Vídeo` 🎥' : type === 'audioMessage' ? '`Mensaje de voz` 🔊' : 'este mensaje'}
-- *Tamaño:* \`${fileSize}\`
-- *Usuario:* *@${m.sender.split('@')[0]}*
+🕵️‍♀️ *ANTI VIEW ONCE* 🕵️\n
+🚫 *Do not hide* ${type === 'imageMessage' ? '`Imagen` 📷' : type === 'videoMessage' ? '`Vídeo` 🎥' : type === 'audioMessage' ? '`Voicemail` 🔊' : 'this message'}
+- *Size:* \`${fileSize}\`
+- *User:* *@${m.sender.split('@')[0]}*
 ${msg[type].caption ? `- *Texto:* ${msg[type].caption}` : ''}`.trim()
 if (/image|video/.test(type)) return await conn.sendFile(m.chat, buffer, type == 'imageMessage' ? 'error.jpg' : 'error.mp4', description, m, false, { mentions: [m.sender] })
 if (/audio/.test(type)) { 
