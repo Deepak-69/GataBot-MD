@@ -10,24 +10,24 @@ await m.reply(`╭┄〔 *${wm}* 〕┄⊱\n┊\n *😹 ${pickRandom(global.chis
 }
 
 if (command == 'reto') {
-await conn.reply(m.chat,`╭━━━━━[ 𝙍𝙀𝙏𝙊 😏 ]━━━━⬣\n*“${pickRandom(global.bucin)}”*\n╰━━━━━━[ ${vs} ]━━━━━⬣`, m)
+await conn.reply(m.chat,`╭━━━━━[ challenges 😏 ]━━━━⬣\n*“${pickRandom(global.bucin)}”*\n╰━━━━━━[ ${vs} ]━━━━━⬣`, m)
 }
 
 if (command == 'verdad') {
-await conn.reply(m.chat,`╭━━━━[ 𝙑𝙀𝙍𝘿𝘼𝘿 🤔 ]━━━━⬣\n*“${pickRandom(global.bucin)}”*\n╰━━━━━━[ ${vs} ]━━━━━⬣`, m)
+await conn.reply(m.chat,`╭━━━━[ TRYE 🤔 ]━━━━⬣\n*“${pickRandom(global.bucin)}”*\n╰━━━━━━[ ${vs} ]━━━━━⬣`, m)
 }
 
 if (command == 'frases') { 
-const ejemplo = `*Asmaul Husna*` 
+const example = `*Asmaul Husna*` 
 const organizar = `Desde Abu Hurairah radhiallahu anhu, Rasulullah SAW dijo: "Tengo noventa y nueve nombres, cien menos 1. Quien los memorice entrará en el Paraíso, y él es un acorde que ama el acorde."
 Significado: "De hecho, yo tengo noventa y nueve nombres, también conocido como cien menos uno. Quien los cuente, entrará en el cielo; Él es Witr y ama a Witr".`
 let json = JSON.parse(JSON.stringify(global.asmaulhusna))
 let data = json.map((v, i) => `${i + 1}. ${v.latin}\n${v.arabic}\n${v.translation_id}`).join('\n\n')
-if (isNaN(args[0])) throw `Ejemplo:\n${usedPrefix + command} 1`
+if (isNaN(args[0])) throw `Example:\n${usedPrefix + command} 1`
 if (args[0]) {
-if (args[0] < 1 || args[0] > 99) throw `mínimo 1 y máximo 99!`
+if (args[0] < 1 || args[0] > 99) throw `minimum 1 and maximum 99!`
 let { index, latin, arabic, translation_id, translation_en } = json.find(v => v.index == args[0].replace(/[^0-9]/g, ''))
-return m.reply(`🔢 *Número:* ${index}
+return m.reply(`🔢 *Number:* ${index}
 ${arabic}
  
 ${latin}
