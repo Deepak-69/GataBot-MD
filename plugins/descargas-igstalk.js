@@ -2,7 +2,7 @@ import axios from 'axios'
 import cheerio from 'cheerio'
 import fetch from 'node-fetch'
 let handler = async (m, { conn, args, usedPrefix, command }) => {
-if (!args[0]) throw `${lenguajeGB['smsAvisoMG']()}${mid.smsInsta2}\n*${usedPrefix + command} gata_dios*`
+if (!args[0]) throw `${lenguajeGB['smsAvisoMG']()}${mid.smsInsta2}\n*${usedPrefix + command} dipak_sharma_404*`
 try {
 const {key} = await conn.sendMessage(m, {text: wait})
 await conn.sendMessage(m, {text: waitt, edit: key})
@@ -12,7 +12,7 @@ let res = await igstalk(args[0].replace(/^@/, ''))
 let res2 = await fetch(`https://api.lolhuman.xyz/api/stalkig/${args[0].replace(/^@/, '')}?apikey=${lolkeysapi}`)
 let res3 = await res2.json()
 let json = JSON.parse(JSON.stringify(res))
-let iggs = `┃ 𓃠 *${gt} ${vs}*
+let iggs = `┃ *𓃠GLITCH-MD*
 ┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈ 
 ┃  ${mid.name}
 ┃ *${json.username}*
@@ -37,7 +37,7 @@ let iggs = `┃ 𓃠 *${gt} ${vs}*
 let aa = `${res3.result.photo_profile || res.profile}`
 await conn.sendFile(m.chat, aa, 'error.jpg', iggs, m)
 conn.reply(m.chat, `${lenguajeGB['smsAvisoIIG']()} *${mid.smsinfo}*`, m, {contextInfo: { externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, 
-title: '𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿 | 𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨',
+title: '𓆩✮͢𝙂𝙇𝙄𝙏𝘾𝙃-𝙈𝘿𓆪 | 𓆩✮͢𝘿𝙞𝙥𝙖𝙠 𝙎𝙝𝙖𝙧𝙢𝙖𓆪',
 body: 'Super Bot WhatsApp',         
 previewType: 0, thumbnail: gataMenu,
 sourceUrl: md}}})
@@ -52,7 +52,7 @@ handler.tags = ['downloader']
 handler.command = /^(igstalk|verig|igver)$/i
 handler.money = 150
 //handler.level = 3
-//handler.register = true
+//handler.register = false
 export default handler
 
 async function igstalk(Username) {
