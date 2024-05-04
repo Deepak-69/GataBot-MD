@@ -52,13 +52,13 @@ conn.relayWAMessage(prep)
 handler.help = ['runtime']
 handler.tags = ['info']
 handler.command = /^(runtime|sc|activo)$/i
-handler.owner = false
-handler.mods = false
-handler.premium = false
-handler.group = false
-handler.private = false
-handler.admin = false
-handler.botAdmin = false
+handler.owner = true 
+handler.mods = true 
+handler.premium = true
+handler.group = true 
+handler.private = true 
+handler.admin = true 
+handler.botAdmin = true
 handler.fail = null 
 
 export default handler
