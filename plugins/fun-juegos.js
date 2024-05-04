@@ -24,7 +24,7 @@ mentions: [a, b]})}
 
 // ------------------------------------------------------------------------------------------------------------------------------------------------
 if (command == 'formarpareja' || command == 'formarparejas') {
-m.reply(`*${toM(a)}, 𝙔𝙖 𝙚𝙨 𝙝𝙤𝙧𝙖 𝙙𝙚 𝙦𝙪𝙚 𝙩𝙚 💍 𝘾𝙖𝙨𝙚𝙨 𝙘𝙤𝙣 ${toM(b)}, 𝙇𝙞𝙣𝙙𝙖 𝙋𝙖𝙧𝙚𝙟𝙖 😉💓*
+m.reply(`*${toM(a)},  𝙄𝙩'𝙨 𝙖𝙗𝙤𝙪𝙩 𝙩𝙞𝙢𝙚 𝙮𝙤𝙪 💍 𝙈𝙖𝙧𝙧𝙮 ${toM(b)}, 𝘾𝙪𝙩𝙚 𝙋𝙤𝙪𝙥𝙡𝙚😉💓*
 
 *${toM(a)}, 𝙄𝙩'𝙨 𝙖𝙗𝙤𝙪𝙩 𝙩𝙞𝙢𝙚 𝙮𝙤𝙪 💍 𝙈𝙖𝙧𝙧𝙮 ${toM(b)}, 𝘾𝙪𝙩𝙚 𝙋𝙤𝙪𝙥𝙡𝙚 🤩💓*`, null, {
 mentions: [a, b]})}
@@ -34,19 +34,19 @@ mentions: [a, b]})}
 if (command == 'personalidad') {
 if (!text) return conn.reply(m.chat, 'Ingrese un nombre?', m)
 
-let personalidad = `┏━━°❀❬ *PERSONALIDAD}* ❭❀°━━┓
+let personalidad = `┏━━°❀❬ *PERSONALITY}* ❭❀°━━┓
 *┃*
-*┃• Nombre* : ${text}
-*┃• Buena Moral* : ${pickRandom(['6%','12%','20%','27%','35%','41%','49%','54%','60%','66%','73%','78%','84%','92%','93%','94%','96%','98,3%','99,7%','99,9%','1%','2,9%','0%','0,4%'])}
+*┃• Name* : ${text}
+*┃• Good Morale* : ${pickRandom(['6%','12%','20%','27%','35%','41%','49%','54%','60%','66%','73%','78%','84%','92%','93%','94%','96%','98,3%','99,7%','99,9%','1%','2,9%','0%','0,4%'])}
 *┃• Mala Moral* : ${pickRandom(['6%','12%','20%','27%','35%','41%','49%','54%','60%','66%','73%','78%','84%','92%','93%','94%','96%','98,3%','99,7%','99,9%','1%','2,9%','0%','0,4%'])}
-*┃• Tipo de persona* : ${pickRandom(['De buen corazón','Arrogante','Tacaño','Generoso','Humilde','Tímido','Cobarde','Entrometido','Cristal','No binarie XD', 'Pendejo'])}
-*┃• Siempre* : ${pickRandom(['Pesado','De malas','Distraido','De molestoso','Chismoso','Pasa jalandosela','De compras','Viendo anime','Chatea en WhatsApp porque esta soltero','Acostado bueno para nada','De mujeriego','En el celular'])}
-*┃• Inteligencia* : ${pickRandom(['6%','12%','20%','27%','35%','41%','49%','54%','60%','66%','73%','78%','84%','92%','93%','94%','96%','98,3%','99,7%','99,9%','1%','2,9%','0%','0,4%'])}
-*┃• Morosidad* : ${pickRandom(['6%','12%','20%','27%','35%','41%','49%','54%','60%','66%','73%','78%','84%','92%','93%','94%','96%','98,3%','99,7%','99,9%','1%','2,9%','0%','0,4%'])}
-*┃• Coraje* : ${pickRandom(['6%','12%','20%','27%','35%','41%','49%','54%','60%','66%','73%','78%','84%','92%','93%','94%','96%','98,3%','99,7%','99,9%','1%','2,9%','0%','0,4%'])}
-*┃• Miedo* : ${pickRandom(['6%','12%','20%','27%','35%','41%','49%','54%','60%','66%','73%','78%','84%','92%','93%','94%','96%','98,3%','99,7%','99,9%','1%','2,9%','0%','0,4%'])}
+*┃• Type of persona* : ${pickRandom(['GOOD HEART','Arrogant','Mean','Generous','Humble','Shy','Coward','Obtrusive','Cristal','No binary XD', 'Stupid'])}
+*┃• Always* : ${pickRandom(['Heavy',' lazy','Distraido',' annoying','Gossip','happens pulling it',' shopping','Seeing anime','Chat in WhatsApp Why this single','Lying down good for anything','In womanizer','In he cell phone'])}
+*┃• Intelligence* : ${pickRandom(['6%','12%','20%','27%','35%','41%','49%','54%','60%','66%','73%','78%','84%','92%','93%','94%','96%','98,3%','99,7%','99,9%','1%','2,9%','0%','0,4%'])}
+*┃• Delinquency* : ${pickRandom(['6%','12%','20%','27%','35%','41%','49%','54%','60%','66%','73%','78%','84%','92%','93%','94%','96%','98,3%','99,7%','99,9%','1%','2,9%','0%','0,4%'])}
+*┃• Courage* : ${pickRandom(['6%','12%','20%','27%','35%','41%','49%','54%','60%','66%','73%','78%','84%','92%','93%','94%','96%','98,3%','99,7%','99,9%','1%','2,9%','0%','0,4%'])}
+*┃• Fear* : ${pickRandom(['6%','12%','20%','27%','35%','41%','49%','54%','60%','66%','73%','78%','84%','92%','93%','94%','96%','98,3%','99,7%','99,9%','1%','2,9%','0%','0,4%'])}
 *┃• Fama* : ${pickRandom(['6%','12%','20%','27%','35%','41%','49%','54%','60%','66%','73%','78%','84%','92%','93%','94%','96%','98,3%','99,7%','99,9%','1%','2,9%','0%','0,4%'])}
-*┃• Género* : ${pickRandom(['Hombre', 'Mujer', 'Homosexual', 'Bisexual', 'Pansexual', 'Feminista', 'Heterosexual', 'Macho alfa', 'Mujerzona', 'Marimacha', 'Palosexual', 'PlayStationSexual', 'Sr. Manuela', 'Pollosexual'])}
+*┃• Gender* : ${pickRandom(['Hombre', 'Mujer', 'Homosexual', 'Bisexual', 'Pansexual', 'Feminista', 'Heterosexual', 'Macho alfa', 'Mujerzona', 'Marimacha', 'Palosexual', 'Sigma', 'Sr. Manuela', 'Pollosexual'])}
 ┗━━━━━━━━━━━━━━━━`
 conn.reply(m.chat, personalidad, m, { mentions: conn.parseMention(personalidad) })
 }   
@@ -54,25 +54,25 @@ conn.reply(m.chat, personalidad, m, { mentions: conn.parseMention(personalidad) 
 // ------------------------------------------------------------------------------------------------------------------------------------------------
     
 if (command == 'pregunta' || command == 'preguntas' || command == 'apakah') {
-if (!text) return m.reply(`${lenguajeGB['smsAvisoMG']()}𝙀𝙎𝘾𝙍𝙄𝘽𝘼 𝙎𝙐 𝙋𝙍𝙀𝙂𝙐𝙉𝙏𝘼 𝙋𝘼𝙍𝘼 𝙎𝙀𝙍 𝙍𝙀𝙎𝙋𝙊𝙉𝘿𝙄𝘿𝘼\n𝙀𝙅𝙀𝙈𝙋𝙇𝙊\n*${usedPrefix + command} Hoy va llover?*\n\n𝙒𝙍𝙄𝙏𝙀 𝙔𝙊𝙐𝙍 𝙌𝙐𝙀𝙎𝙏𝙄𝙊𝙉 𝙏𝙊 𝘽𝙀 𝘼𝙉𝙎𝙒𝙀𝙍𝙀𝘿\n𝙀𝙓𝘼𝙈𝙋𝙇𝙀\n*${usedPrefix + command} Hoy va llover?*`) 
+if (!text) return m.reply(`𝙒𝙍𝙄𝙏𝙀 𝙔𝙊𝙐𝙍 𝙌𝙐𝙀𝙎𝙏𝙄𝙊𝙉 𝙏𝙊 𝘽𝙀 𝘼𝙉𝙎𝙒𝙀𝙍𝙀𝘿\n𝙀𝙓𝘼𝙈𝙋𝙇𝙀\n*${usedPrefix + command} Hoy va llover?*`) 
  
-m.reply(`╭━〔 𝙋𝙍𝙀𝙂𝙐𝙉𝙏𝘼 | 𝙌𝙐𝙀𝙎𝙏𝙄𝙊𝙉 〕━⬣  
-⁉️ 𝙋𝙍𝙀𝙂𝙐𝙉𝙏𝘼
+m.reply(`╭━〔 𝙌𝙐𝙀𝙎𝙏𝙄𝙊𝙉 〕━⬣  
+⁉️ 
 🙀 *${text}*
 ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈ 
-✅ 𝙍𝙀𝙎𝙋𝙐𝙀𝙎𝙏𝘼 | 𝙍𝙀𝙎𝙋𝙊𝙉𝙎𝙀 
-😼 *${['Si','Tal vez sí','Tal vez no','Posiblemente','Probablemente no','Probablemente no','Puede ser','No puede ser','No','Imposible','Depende','Creo que si','Creo que no','Claro no lo dudes','Hasta yo lo dudo','No tengo palabras jajaja','Es altamente posible','Es bajamente posible'].getRandom()}*
+✅  𝙍𝙀𝙎𝙋𝙊𝙉𝙎𝙀 
+😼 *${['And','Of turn Yeah','Of turn no','Possibly','Possibly  no','Possibly no','Can to be','No can to be','No','Imposible','i dont know','Believe what and','Believe what no','Clear no lo dudes','Until yo lo dudo','No I have words hahahah ','highly posible',' tonsils posible'].getRandom()}*
 ╰━━━━━〔 𓃠 *${vs}* 〕━━━━⬣`)
 }
 
 // ------------------------------------------------------------------------------------------------------------------------------------------------
 
 if (command == 'ship' || command == 'shippear') {
-if (!text) return m.reply(`╰⊱❗️⊱ *𝙇𝙊 𝙐𝙎𝙊́ 𝙈𝘼𝙇 | 𝙐𝙎𝙀𝘿 𝙄𝙏 𝙒𝙍𝙊𝙉𝙂* ⊱❗️⊱╮\n\n𝙀𝙎𝘾𝙍𝙄𝘽𝙀 𝙀𝙇 𝙉𝙊𝙈𝘽𝙍𝙀 𝘿𝙀 𝘿𝙊𝙎 𝙋𝙀𝙍𝙎𝙊𝙉𝘼𝙎 𝙋𝘼𝙍𝘼 𝘾𝘼𝙇𝘾𝙐𝙇𝘼𝙍 𝙎𝙐 𝘼𝙈𝙊𝙍`) 
+if (!text) return m.reply(`╰⊱❗️⊱ *𝙐𝙎𝙀𝘿 𝙄𝙏 𝙒𝙍𝙊𝙉𝙂* ⊱❗️⊱╮`) 
 let [text1, ...text2] = text.split(' ')
 text2 = (text2 || []).join(' ')
-if (!text2) return m.reply(`⚠️ 𝙁𝘼𝙇𝙏𝘼 𝙀𝙇 𝙉𝙊𝙈𝘽𝙍𝙀 𝘿𝙀 𝙇𝘼 𝙎𝙀𝙂𝙐𝙉𝘿𝘼 𝙋𝙀𝙍𝙎𝙊𝙉𝘼`) 
-let love = `_❤️ *${text1}* tu oportunidad de enamorarte de *${text2}* es de *${Math.floor(Math.random() * 100)}%* 👩🏻‍❤️‍👨🏻_ `.trim()
+if (!text2) return m.reply(`⚠️ _*SECOND PERSON'S NAME IS MISSING*_`) 
+let love = `_❤️ *${text1}* your chance to fall in love with *${text2}* es de *${Math.floor(Math.random() * 100)}%* 👩🏻‍❤️‍👨🏻_ `.trim()
 m.reply(love, null, { mentions: conn.parseMention(love) })
 }
 
@@ -81,13 +81,13 @@ m.reply(love, null, { mentions: conn.parseMention(love) })
 if (command == 'Doxxeo' || command == 'doxxeo' || command == 'doxxear' || command == 'Doxxear' || command == 'doxeo' || command == 'doxear' || command == 'doxxeame' || command == 'doxeame') {
 let user = global.db.data.users[m.sender]
 let time = user.prue + 90000 //1 min
-if (new Date - user.prue < 90000) return await conn.reply(m.chat, `🙌 HEY ALTO ESPERA UNOS MINUTOS PARA USAR OTRO COMANDO NO HAGA SPAM`, fkontak, m)
-//if (!text) throw `${lenguajeGB['smsAvisoMG']()} 𝙄𝙉𝙂𝙍𝙀𝙎𝘼 𝙀𝙇 @tag 𝘿𝙀 𝘼𝙇𝙂𝙐𝙉 𝙐𝙎𝙐𝘼𝙍𝙄𝙊*`
+if (new Date - user.prue < 90000) return await conn.reply(m.chat, `🙌 HEY ALTO WAIT SOME MINUTES FOR TO USE OTHER COMMAND NO MAKE SPAM`, fkontak, m)
+//if (!text) throw `${lenguajeGB['smsAvisoMG']()} ENTER THE @tag OF SOME USER*`
 let who
 if (m.isGroup) who = m.mentionedJid[0]
 else who = m.chat
-if (!who) return m.reply(`${lenguajeGB['smsAvisoMG']()} 𝙄𝙉𝙂𝙍𝙀𝙎𝘼 𝙀𝙇 @tag 𝘿𝙀 𝘼𝙇𝙂𝙐𝙉 𝙐𝙎𝙐𝘼𝙍𝙄𝙊*`) 
-let start = `*😱 ¡¡Empezando Doxxeo!! 😱*`
+if (!who) return m.reply(`${lenguajeGB['smsAvisoMG']()} ENTER  @tag OF SOME USER*`) 
+let start = `*😱 ¡¡ Starting Doxxeo!! 😱*`
 let ala = `😨`
 let boost = `*${pickRandom(['0','1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20'])}%*`
 let boost2 = `*${pickRandom(['21','22','23','24','25','26','27','28','29','30','31','32','33','34','35','36','37','38','39','40'])}%*`
@@ -108,9 +108,9 @@ await conn.sendMessage(m.chat, {text: `${boost5}`, edit: key})
 let old = performance.now()
 let neww = performance.now()
 let speed = `${neww - old}`
-let doxeo = `*_✅ Persona doxxeada con éxito_*\n\n*_Tiempo: ${speed} segundos!_*
+let doxeo = `*_✅ Person Doxxeo con sucesss*\n\n*_Time: ${speed} _Seconds!_*
 
-*RESULTADOS:*
+*RESULTS:*
 *Nombre:* ${text}
 *Ip:* 192.28.213.234
 *N:* 43 7462
@@ -190,28 +190,28 @@ ptt: true })}
 // ------------------------------------------------------------------------------------------------------------------------------------------------
     
 if (command == 'gay2') {
-if (!text) return m.reply(`${lenguajeGB['smsAvisoMG']()}𝙀𝙏𝙄𝙌𝙐𝙀𝙏𝙀 @𝙏𝘼𝙂 𝙊 𝙀𝙎𝘾𝙍𝙄𝘽𝘼 𝙀𝙇 𝙉𝙊𝙈𝘽𝙍𝙀\n𝙏𝘼𝙂 𝙎𝙊𝙈𝙀𝙊𝙉𝙀 @𝙏𝘼𝙂 𝙊𝙍 𝙏𝙔𝙋𝙀 𝙏𝙃𝙀 𝙉𝘼𝙈𝙀`) 
+if (!text) return m.reply(`𝙏𝘼𝙂 𝙎𝙊𝙈𝙀𝙊𝙉𝙀 @𝙏𝘼𝙂 𝙊𝙍 𝙏𝙔𝙋𝙀 𝙏𝙃𝙀 𝙉𝘼𝙈𝙀`) 
 let juego = `_*${text.toUpperCase()}* *ES/IS* *${(500).getRandom()}%* *GAY*_ 🏳️‍🌈`.trim()
 await conn.reply(m.chat, juego, m, m.mentionedJid ? { mentions: m.mentionedJid } : {})}
 
  // ------------------------------------------------------------------------------------------------------------------------------------------------
   
 if (command == 'lesbiana') { 
-if (!text) return m.reply(`${lenguajeGB['smsAvisoMG']()}𝙀𝙏𝙄𝙌𝙐𝙀𝙏𝙀 @𝙏𝘼𝙂 𝙊 𝙀𝙎𝘾𝙍𝙄𝘽𝘼 𝙀𝙇 𝙉𝙊𝙈𝘽𝙍𝙀\n𝙏𝘼𝙂 𝙎𝙊𝙈𝙀𝙊𝙉𝙀 @𝙏𝘼𝙂 𝙊𝙍 𝙏𝙔𝙋𝙀 𝙏𝙃𝙀 𝙉𝘼𝙈𝙀`) 
+if (!text) return m.reply(`𝙏𝘼𝙂 𝙎𝙊𝙈𝙀𝙊𝙉𝙀 @𝙏𝘼𝙂 𝙊𝙍 𝙏𝙔𝙋𝙀 𝙏𝙃𝙀 𝙉𝘼𝙈𝙀`) 
 let juego = `_*${text.toUpperCase()}* *ES/IS* *${(500).getRandom()}%* *${command.replace('how', '').toUpperCase()}*_ 🏳️‍🌈`.trim()
 await conn.reply(m.chat, juego, m, m.mentionedJid ? { mentions: m.mentionedJid } : {})}
   
 // ------------------------------------------------------------------------------------------------------------------------------------------------
   
 if (command == 'pajero') {
-if (!text) return m.reply(`${lenguajeGB['smsAvisoMG']()}𝙀𝙏𝙄𝙌𝙐𝙀𝙏𝙀 @𝙏𝘼𝙂 𝙊 𝙀𝙎𝘾𝙍𝙄𝘽𝘼 𝙀𝙇 𝙉𝙊𝙈𝘽𝙍𝙀\n𝙏𝘼𝙂 𝙎𝙊𝙈𝙀𝙊𝙉𝙀 @𝙏𝘼𝙂 𝙊𝙍 𝙏𝙔𝙋𝙀 𝙏𝙃𝙀 𝙉𝘼𝙈𝙀`)
+if (!text) return m.reply(`𝙏𝘼𝙂 𝙎𝙊𝙈𝙀𝙊𝙉𝙀 @𝙏𝘼𝙂 𝙊𝙍 𝙏𝙔𝙋𝙀 𝙏𝙃𝙀 𝙉𝘼𝙈𝙀`)
 let juego = `_*${text.toUpperCase()}* *ES/IS* *${(500).getRandom()}%* *${command.replace('how', '').toUpperCase()}*_ 😏💦`.trim()
 await conn.reply(m.chat, juego, m, m.mentionedJid ? { mentions: m.mentionedJid } : {})}
   
 // ------------------------------------------------------------------------------------------------------------------------------------------------
   
 if (command == 'pajera') {
-if (!text) return m.reply(`${lenguajeGB['smsAvisoMG']()}𝙀𝙏𝙄𝙌𝙐𝙀𝙏𝙀 @𝙏𝘼𝙂 𝙊 𝙀𝙎𝘾𝙍𝙄𝘽𝘼 𝙀𝙇 𝙉𝙊𝙈𝘽𝙍𝙀\n𝙏𝘼𝙂 𝙎𝙊𝙈𝙀𝙊𝙉𝙀 @𝙏𝘼𝙂 𝙊𝙍 𝙏𝙔𝙋𝙀 𝙏𝙃𝙀 𝙉𝘼𝙈𝙀`)
+if (!text) return m.reply(`𝙏𝘼𝙂 𝙎𝙊𝙈𝙀𝙊𝙉𝙀 @𝙏𝘼𝙂 𝙊𝙍 𝙏𝙔𝙋𝙀 𝙏𝙃𝙀 𝙉𝘼𝙈𝙀`)
 let juego = `_*${text.toUpperCase()}* *ES/IS* *${(500).getRandom()}%* *${command.replace('how', '').toUpperCase()}*_ 😏💦`.trim()
 await conn.reply(m.chat, juego, m, m.mentionedJid ? { mentions: m.mentionedJid } : {})}
   
@@ -246,14 +246,14 @@ await conn.reply(m.chat, juego, m, m.mentionedJid ? { mentions: m.mentionedJid }
 // ------------------------------------------------------------------------------------------------------------------------------------------------ 
   
 if (command == 'rata') {
-if (!text) return m.reply(`${lenguajeGB['smsAvisoMG']()}𝙀𝙏𝙄𝙌𝙐𝙀𝙏𝙀 @𝙏𝘼𝙂 𝙊 𝙀𝙎𝘾𝙍𝙄𝘽𝘼 𝙀𝙇 𝙉𝙊𝙈𝘽𝙍𝙀\n𝙏𝘼𝙂 𝙎𝙊𝙈𝙀𝙊𝙉𝙀 @𝙏𝘼𝙂 𝙊𝙍 𝙏𝙔𝙋𝙀 𝙏𝙃𝙀 𝙉𝘼𝙈𝙀`) 
+if (!text) return m.reply('𝙏𝘼𝙂 𝙎𝙊𝙈𝙀𝙊𝙉𝙀 @𝙏𝘼𝙂 𝙊𝙍 𝙏𝙔𝙋𝙀 𝙏𝙃𝙀 𝙉𝘼𝙈𝙀`) 
 let juego = `_*${text.toUpperCase()}* *ES* *${(500).getRandom()}%* *${command.replace('how', '').toUpperCase()} 🐁 COME QUESO 🧀*_`.trim()
 await conn.reply(m.chat, juego, m, m.mentionedJid ? { mentions: m.mentionedJid } : {})}
   
 // ------------------------------------------------------------------------------------------------------------------------------------------------   
   
 if (command == 'prostituto') {
-if (!text) return m.reply(`${lenguajeGB['smsAvisoMG']()}𝙀𝙏𝙄𝙌𝙐𝙀𝙏𝙀 @𝙏𝘼𝙂 𝙊 𝙀𝙎𝘾𝙍𝙄𝘽𝘼 𝙀𝙇 𝙉𝙊𝙈𝘽𝙍𝙀\n𝙏𝘼𝙂 𝙎𝙊𝙈𝙀𝙊𝙉𝙀 @𝙏𝘼𝙂 𝙊𝙍 𝙏𝙔𝙋𝙀 𝙏𝙃𝙀 𝙉𝘼𝙈𝙀`) 
+if (!text) return m.reply(`𝙏𝘼𝙂 𝙎𝙊𝙈𝙀𝙊𝙉𝙀 @𝙏𝘼𝙂 𝙊𝙍 𝙏𝙔𝙋𝙀 𝙏𝙃𝙀 𝙉𝘼𝙈𝙀`) 
 let juego = `_*${text.toUpperCase()}* *ES* *${(500).getRandom()}%* *${command.replace('how', '').toUpperCase()} 🫦👅, QUIEN QUIERE DE SUS SERVICIOS? XD*_`.trim()
 await conn.reply(m.chat, juego, m, m.mentionedJid ? { mentions: m.mentionedJid } : {})}
   
@@ -266,15 +266,15 @@ await conn.reply(m.chat, juego, m, m.mentionedJid ? { mentions: m.mentionedJid }
   
  // ------------------------------------------------------------------------------------------------------------------------------------------------   
 if (command == 'love') {
-if (!text) return m.reply(`${lenguajeGB['smsAvisoMG']()}𝙀𝙏𝙄𝙌𝙐𝙀𝙏𝙀 @𝙏𝘼𝙂 𝙊 𝙀𝙎𝘾𝙍𝙄𝘽𝘼 𝙀𝙇 𝙉𝙊𝙈𝘽𝙍𝙀\n𝙏𝘼𝙂 𝙎𝙊𝙈𝙀𝙊𝙉𝙀 @𝙏𝘼𝙂 𝙊𝙍 𝙏𝙔𝙋𝙀 𝙏𝙃𝙀 𝙉𝘼𝙈𝙀`) 
-let juego = `*❤️❤️ MEDIDOR DE AMOR ❤️❤️*\n*_El amor de ${text.toUpperCase()} ES DE ${(500).getRandom()}% Deberias pedirle que sea tu  novia/o ?_*`.trim()
+if (!text) return m.reply('𝙏𝘼𝙂 𝙎𝙊𝙈𝙀𝙊𝙉𝙀 @𝙏𝘼𝙂 𝙊𝙍 𝙏𝙔𝙋𝙀 𝙏𝙃𝙀 𝙉𝘼𝙈𝙀`) 
+let juego = `*❤️❤️ MEASURER OF LPVE ❤️❤️*\n*_He amor of ${text.toUpperCase()} ES OF ${(500).getRandom()}% You should you  what sea tu  bride/o ?_*`.trim()
 await conn.reply(m.chat, juego, m, m.mentionedJid ? { mentions: m.mentionedJid } : {})}
 
  // ------------------------------------------------------------------------------------------------------------------------------------------------   
  
  if (command == 'topgays') {
 let vn = 'https://qu.ax/HfeP.mp3'
-let top = `*🌈TOP 10 GAYS/LESBIANAS DEL GRUPO🌈*
+let top = `*🌈TOP 10 GAYS/LESBIANAS OF THE GRUP🌈*
     
 *_1.- 🏳️‍🌈 ${user(a)}_* 🏳️‍🌈
 *_2.- 🪂 ${user(b)}_* 🪂
@@ -295,7 +295,7 @@ ptt: true })}
      
 if (command == 'topotakus') {
 let vn = 'https://qu.ax/ZgFZ.mp3'
-let top = `*🌸 TOP 10 OTAKUS DEL GRUPO 🌸*
+let top = `*🌸 TOP 10 OTAKUS OF THE GROUP 🌸*
     
 *_1.- 💮 ${user(a)}_* 💮
 *_2.- 🌷 ${user(b)}_* 🌷
@@ -316,7 +316,7 @@ ptt: true
  // ------------------------------------------------------------------------------------------------------------------------------------------------   
     
 if (command == 'topintegrantes' || command == 'topintegrante') {
-let top = `*_💎TOP 10 L@S MEJORES INTEGRANTES👑_*
+let top = `*_💎TOP 10 L@S TOP MEMBERS👑_*
     
 *_1.- 💎 ${user(a)}_* 💎
 *_2.- 👑 ${user(b)}_* 👑
@@ -350,7 +350,7 @@ m.reply(top, null, { mentions: conn.parseMention(top) })}
 // ------------------------------------------------------------------------------------------------------------------------------------------------   
    
 if (command == 'toppanafrescos' || command == 'toppanafresco') {
-let top = `*_👊TOP 10 PANAFRESCOS👊_* 
+let top = `*_👊TOP 10 TOPPANAFEESCOS👊_* 
     
 *_1.- 🤑 ${user(a)}_* 🤑
 *_2.- 🤙 ${user(b)}_* 🤙
@@ -367,7 +367,7 @@ m.reply(top, null, { mentions: conn.parseMention(top) })}
 // ------------------------------------------------------------------------------------------------------------------------------------------------   
    
 if (command == 'topshiposters' || command == 'topshipost') {
-let top = `*_😱TOP 10 SHIPOSTERS DEL GRUPO😱_* 
+let top = `*_😱TOP 10 SHIPPOSTER OF THE GROUP😱_* 
     
 *_1.- 😈 ${user(a)}_* 😈
 *_2.- 🤙 ${user(b)}_* 🤙
@@ -401,7 +401,7 @@ m.reply(top, null, { mentions: conn.parseMention(top) })}
 // ------------------------------------------------------------------------------------------------------------------------------------------------   
    
 if (command == 'toplind@s' || command == 'toplindos') {
-let top = `*_😳TOP L@S MAS LIND@S Y SEXIS DEL GRUPO😳_*
+let top = `*_😳TOP L@S MAS LIND@S Y SEXY OF THE GROUP😳_*
     
 *_1.- ✨ ${user(a)}_* ✨
 *_2.- ✨ ${user(b)}_* ✨
@@ -435,7 +435,7 @@ m.reply(top, null, { mentions: conn.parseMention(top) })}
 // ------------------------------------------------------------------------------------------------------------------------------------------------   
    
 if (command == 'topfamosos' || command == 'topfamos@s') {
-let top = `*_🌟TOP PERSONAS FAMOSAS EN EL GRUPO🌟_* 
+let top = `*_🌟TOP PERSONAS FAMOUS IN HE GROUP🌟_* 
     
 *_1.- 🛫 ${user(a)}_* 🛫
 *_2.- 🥂 ${user(b)}_* 🥂
@@ -451,23 +451,23 @@ m.reply(top, null, { mentions: conn.parseMention(top) })}
    
 // ------------------------------------------------------------------------------------------------------------------------------------------------   
    
-if (command == 'topparejas' || command == 'top5parejas') {
-let top = `*_😍 Las 5 maravillosas parejas del grupo 😍_*
+if (command == 'topcouples' || command == 'top5parejas') {
+let top = `*_😍 Las 5 wonderful couples of the group 😍_*
     
 *_1.- ${user(a)} 💘 ${user(b)}_* 
-Que hermosa pareja 💖, me invitan a su Boda 🛐
+Que hermosa couple 💖, me invite a are Boda 🛐
 
 *_2.- ${user(c)} 💘 ${user(d)}_*  
-🌹 Ustedes se merecen lo mejor del mundo 💞
+🌹 You are the best  💞
 
 *_3.- ${user(e)} 💘 ${user(f)}_* 
-Tan enamorados 😍, para cuando la familia 🥰
+So in love 😍, for when the family 🥰
 
 *_4.- ${user(g)} 💘 ${user(h)}_* 
-💗 Decreto que ustedes son la pareja del Año 💗 
+💗 I decree that you  WOW💗 
 
 *_5.- ${user(i)} 💘 ${user(j)}_* 
-Genial! 💝, están de Luna de miel 🥵✨❤️‍🔥`
+Genial! 💝, are of Luna of Honey 🥵✨❤️‍🔥`
 m.reply(top, null, { mentions: conn.parseMention(top) })}
 } catch (e) {
 //await conn.reply(m.chat, `${lenguajeGB['smsMalError3']()}#report ${lenguajeGB['smsMensError2']()} ${usedPrefix + command}\n\n${wm}`, fkontak, m)
