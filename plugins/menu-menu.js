@@ -151,7 +151,7 @@ let menu = `${lenguajeGB['smsConfi2']()} *${user.genero === 0 ? '👤' : user.ge
 
 ${margen}
 
-> 🌟 *INFORMACIÓN GENERAL* 🌟 
+> 🌟 *INFORMATION GENERAL* 🌟 
 
 *❰❰ ${lenguajeGB['smsTotalUsers']()} ❱❱* 
 ➺ \`\`\`${Object.keys(global.db.data.users).length}\`\`\`
@@ -176,12 +176,12 @@ ${margen}
 
 ${margen}
 
-> ✨ *INFORMACIÓN DEL USUARIO* ✨
+> ✨ *USER INFORMATION* ✨
 
-*❰❰ Tipo de registro ❱❱*
+*❰❰ Type of register ❱❱*
 ➺ ${user.registered === true ? `_${user.registroC === true ? '🗂️ Registro Completo' : '📑 Registro Rápido'}_` : '❌ _Sin registro_'}
 
-*❰❰ Mi estado ❱❱*
+*❰❰ My status ❱❱*
 ➺ ${typeof user.miestado !== 'string' ? '❌ *Establecer usando:* _' + usedPrefix + 'miestado_' : '_Me siento ' + user.miestado + '_'}
 
 *❰❰ Registrado ❱❱*
@@ -204,7 +204,7 @@ ${margen}
 
 ${margen}
 
-> 💫 *INFORMACIÓN* 💫\n
+> 💫 *INFORMATION* 💫\n
 ${generateCommand(commandsInfo, usedPrefix)}
 
 ${margen}
@@ -214,52 +214,52 @@ ${generateCommand(commandsJadiBot, usedPrefix)}
 
 ${margen}
 
-> 🆘 *REPORTAR COMANDOS* 🆘\n
+> 🆘 *REPORT COMMANDS* 🆘\n
 ${generateCommand(commandsReport, usedPrefix)}
 
 ${margen}
 
-> 🪅 *GATABOT TEMPORAL* 🪅\n
+> 🪅 *GLITCH-MD* 🪅\n
 ${generateCommand(commandsLink, usedPrefix)}
 
 ${margen}
 
-> 🎟️ *SER PREMIUM* 🎟️\n
+> 🎟️ *TO BE PREMIUM* 🎟️\n
 ${generateCommand(commandsPrem, usedPrefix)}
 
 ${margen}
 
-> 🎡 *JUEGOS* 🎡\n
+> 🎡 *GAMES* 🎡\n
 ${generateCommand(commandsGames, usedPrefix)}
 
 ${margen}
 
-> ✨ *IA* ✨\n
+> ✨ *AI* ✨\n
 ${generateCommand(commandsAI, usedPrefix)}
 
 ${margen}
 
 > ⚙️ *AJUSTES* ⚙️
-${m.isGroup ? `_✅ ➤ Activado_
-_❌ ➤ Desactivado_` : `Para ver la configuración completa sólo use: *${usedPrefix}on* o *${usedPrefix}off*`}\n
+${m.isGroup ? `_✅ ➤ Activated_
+_❌ ➤ Desactivado_` : `turn off: *${usedPrefix}on* o *${usedPrefix}off*`}\n
 ${generateCommand(commandsConfig, usedPrefix).replace(/≡/g, '𖡡')}
 
 ${margen}
 
-> 🧾 *AJUSTES/INFO - GRUPO* 🧾
+> 🧾 *AJUSTES/INFO - GROUP* 🧾
 
 ✓ _${usedPrefix}configuracion_
 ✓ _${usedPrefix}settings_
 ✓ _${usedPrefix}vergrupo_
 
-> 🪄 *DESCARGAS* 🪄
+> 🪄 *DOWNLOADS* 🪄
 
-✓ _${usedPrefix}imagen | image *texto*_
-✓ _${usedPrefix}pinterest | dlpinterest *texto*_
-✓ _${usedPrefix}wallpaper|wp *texto*_
-✓ _${usedPrefix}play | play2 *texto o link*_
-✓ _${usedPrefix}play.1 *texto o link*_
-✓ _${usedPrefix}play.2 *texto o link*_ 
+✓ _${usedPrefix}imagen | image *text*_
+✓ _${usedPrefix}pinterest | dlpinterest *text*_
+✓ _${usedPrefix}wallpaper|wp *tex*_
+✓ _${usedPrefix}play | play2 *text to link*_
+✓ _${usedPrefix}play.1 *text tolink*_
+✓ _${usedPrefix}play.2 *text to link*_ 
 ✓ _${usedPrefix}ytmp3 | yta *link*_
 ✓ _${usedPrefix}ytmp4 | ytv *link*_
 ✓ _${usedPrefix}pdocaudio | ytadoc *link*_
@@ -267,22 +267,22 @@ ${margen}
 ✓ _${usedPrefix}tw |twdl | twitter *link*_
 ✓ _${usedPrefix}facebook | fb *link*_
 ✓ _${usedPrefix}instagram *link video o imagen*_
-✓ _${usedPrefix}verig | igstalk *usuario(a)*_
-✓ _${usedPrefix}ighistoria | igstory *usuario(a)*_
+✓ _${usedPrefix}verig | igstalk *user(a)*_
+✓ _${usedPrefix}ighistoria | igstory *user(a)*_
 ✓ _${usedPrefix}tiktok *link*_
 ✓ _${usedPrefix}tiktokimagen | ttimagen *link*_
-✓ _${usedPrefix}tiktokfoto | tiktokphoto *usuario(a)*_
-✓ _${usedPrefix}vertiktok | tiktokstalk *usuario(a)*_
+✓ _${usedPrefix}tiktokfoto | tiktokphoto *user(a)*_
+✓ _${usedPrefix}vertiktok | tiktokstalk *user(a)*_
 ✓ _${usedPrefix}mediafire | dlmediafire *link*_
 ✓ _${usedPrefix}clonarepo | gitclone *link*_
-✓ _${usedPrefix}clima *país ciudad*_
+✓ _${usedPrefix}clima *country City*_
 ✓ _${usedPrefix}consejo_
-✓ _${usedPrefix}morse codificar *texto*_
+✓ _${usedPrefix}morse codificar *text*_
 ✓ _${usedPrefix}morse decodificar *morse*_
 ✓ _${usedPrefix}fraseromantica_
 ✓ _${usedPrefix}historia_
 
-> 👤 *CHAT ANONIMO* 👤
+> 👤 *CHAT ANONYMOUS* 👤
 
 ✓ _${usedPrefix}chatanonimo | anonimochat_
 ✓ _${usedPrefix}anonimoch_
@@ -290,11 +290,11 @@ ${margen}
 ✓ _${usedPrefix}next_
 ✓ _${usedPrefix}leave_
 
-> 🌐 *COMANDOS PARA GRUPOS* 🌐
+> 🌐 *COMAND FOR GROUPS* 🌐
 
 ✓ _${usedPrefix}add *numero*_
 ✓ _${usedPrefix}sacar | ban | kick  *@tag*_
-✓ _${usedPrefix}grupo *abrir o cerrar*_
+✓ _${usedPrefix}grupo *open or close*_
 ✓ _${usedPrefix}group *open o close*_
 ✓ _${usedPrefix}daradmin | promote *@tag*_
 ✓ _${usedPrefix}quitar | demote *@tag*_
@@ -302,16 +302,16 @@ ${margen}
 ✓ _${usedPrefix}unbanchat_
 ✓ _${usedPrefix}banuser *@tag*_
 ✓ _${usedPrefix}unbanuser *@tag*_
-✓ _${usedPrefix}admins *texto*_
-✓ _${usedPrefix}invocar *texto*_
-✓ _${usedPrefix}tagall *texto*_
-✓ _${usedPrefix}hidetag *texto*_
-✓ _${usedPrefix}infogrupo | infogroup_
-✓ _${usedPrefix}grupotiempo | grouptime *Cantidad*_
+✓ _${usedPrefix}admins *text*_
+✓ _${usedPrefix}invocar *text*_
+✓ _${usedPrefix}tagall *text*_
+✓ _${usedPrefix}hidetag *text*_
+✓ _${usedPrefix}infogrup | infogroup_
+✓ _${usedPrefix}time group | grouptime *Amount*_
 ✓ _${usedPrefix}advertencia *@tag*_
 ✓ _${usedPrefix}deladvertencia *@tag*_
 ✓ _${usedPrefix}delwarn *@tag*_
-✓ _${usedPrefix}crearvoto | startvoto *texto*_
+✓ _${usedPrefix}crearvoto | the starter *text*_
 ✓ _${usedPrefix}sivotar | upvote_
 ✓ _${usedPrefix}novotar | devote_
 ✓ _${usedPrefix}vervotos | cekvoto_
@@ -325,7 +325,7 @@ ${margen}
 ✓ _${usedPrefix}on_
 ✓ _${usedPrefix}off_
 
-> 💞 *PAREJAS* 💞
+> 💞 *COUPLES* 💞
 
 ✓ _${usedPrefix}listaparejas | listship_
 ✓ _${usedPrefix}mipareja | mylove_
@@ -334,7 +334,7 @@ ${margen}
 ✓ _${usedPrefix}rechazar | decline *@tag*_
 ✓ _${usedPrefix}terminar | finish *@tag*_
 
-> 📦 *VOTACIONES EN GRUPOS* 📦
+> 📦 *VOTING IN GROUPS* 📦
 
 ✓ _${usedPrefix}crearvoto | startvoto *texto*_
 ✓ _${usedPrefix}sivotar | upvote_
@@ -342,20 +342,20 @@ ${margen}
 ✓ _${usedPrefix}vervotos | cekvoto_
 ✓ _${usedPrefix}delvoto | deletevoto_
 
-> 🔞 *CONTENIDO* 🔞
+> 🔞 *CONTENT* 🔞
 
 ✓ _${usedPrefix}hornymenu_
 
 > 🔁 *CONVERTIDORES* 🔁
 
 ✓ _${usedPrefix}toimg | img | jpg *sticker*_
-✓ _${usedPrefix}toanime | jadianime *foto*_
-✓ _${usedPrefix}tomp3 | mp3 *video o nota de voz*_
+✓ _${usedPrefix}toanime | soanime *Photo*_
+✓ _${usedPrefix}tomp3 | mp3 *video or voice note*_
 ✓ _${usedPrefix}tovn | vn *video o audio*_
 ✓ _${usedPrefix}tovideo *audio*_
 ✓ _${usedPrefix}tourl *video, imagen*_
-✓ _${usedPrefix}toenlace  *video, imagen o audio*_
-✓ _${usedPrefix}tts es *texto*_
+✓ _${usedPrefix}toenlace  *video, image to audio*_
+✓ _${usedPrefix}tts es *text*_
 
 > 🔆 *LOGOS* 🔆
 
@@ -440,7 +440,7 @@ ${margen}
 ✓ _${usedPrefix}smooth_
 ✓ _${usedPrefix}tupai_
 
-> 🔍 *BÚSQUEDAS* 🔍
+> 🔍 *SEARCHES* 🔍
 
 ✓ _${usedPrefix}animeinfo *texto*_
 ✓ _${usedPrefix}mangainfo *texto*_
@@ -454,20 +454,20 @@ ${margen}
 
 ✓ _${usedPrefix}audios_
 
-> 🛠️ *HERRAMIENTAS* 🛠️
+> 🛠️ *TOOLS* 🛠️
 
-✓ _${usedPrefix}afk *motivo*_
+✓ _${usedPrefix}afk *reason*_
 ✓ _${usedPrefix}acortar *url*_
-✓ _${usedPrefix}calc *operacion math*_
-✓ _${usedPrefix}del *respondre a mensaje del Bot*_
-✓ _${usedPrefix}qrcode *texto*_
-✓ _${usedPrefix}readmore *texto1|texto2*_
-✓ _${usedPrefix}spamwa *numero|texto|cantidad*_
-✓ _${usedPrefix}styletext *texto*_
-✓ _${usedPrefix}traducir *texto*_
-✓ _${usedPrefix}morse codificar *texto*_
+✓ _${usedPrefix}calc *operation math*_
+✓ _${usedPrefix}del *respond to bot message*_
+✓ _${usedPrefix}qrcode *text*_
+✓ _${usedPrefix}readmore *text1|text2*_
+✓ _${usedPrefix}spamwa *numero|text|amount*_
+✓ _${usedPrefix}styletext *text*_
+✓ _${usedPrefix}traducir *text*_
+✓ _${usedPrefix}morse codificar *text*_
 ✓ _${usedPrefix}morse decodificar *morse*_
-✓ _${usedPrefix}encuesta | poll *Motivo*_
+✓ _${usedPrefix}encuesta | poll *Reason*_
 ✓ _${usedPrefix}horario_
 
 > ⚗️ *COMANDOS RPG* ⚗️
@@ -502,7 +502,7 @@ ${margen}
 ✓ _${usedPrefix}minardiamantes | minargemas_
 ✓ _${usedPrefix}minargatacoins | minarcoins_
 ✓ _${usedPrefix}minarexperiencia | minarexp_
-✓ _${usedPrefix}minar *:* minar2 *:* minar3_
+✓ _${usedPrefix}minar *:* A beacon *:* 
 ✓ _${usedPrefix}rob | robar 
 ✓ _${usedPrefix}crime
 ✓ _${usedPrefix}reclamar | regalo | claim_
@@ -552,12 +552,12 @@ ${margen}
 ✓ _${usedPrefix}stickerfilter *efecto : responder a imagen*_
 ✓ _${usedPrefix}cs *:* cs2_
 
-> 😼 *MODIFICAR STICKERS* 😼
+> 😼 *MODIFY STICKERS* 😼
 
 ✓ _${usedPrefix}wm *packname|author*_
 ✓ _${usedPrefix}wm *texto1|texto2*_
 
-> 👻 *STICKERS DINÁMICOS* 👻
+> 👻 *STICKERS DYNAMICS* 👻
 
 ✓ _${usedPrefix}palmaditas | pat *@tag*_
 ✓ _${usedPrefix}bofetada | slap *@tag*_
@@ -565,7 +565,7 @@ ${margen}
 ✓ _${usedPrefix}besar | kiss *@tag*_
 ✓ _${usedPrefix}alimentar | food *@tag*_
 
-> 💎 *PARA MI CREADOR/A* 💎
+> 💎 *FOR MY CREATOR/A* 💎
 
 ✓ _${usedPrefix}join *enlace*_
 ✓ _${usedPrefix}unete *enlace*_
