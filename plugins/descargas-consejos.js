@@ -48,11 +48,10 @@ handler.register = true
 export default handler
 
 global.motivation = [
-  "Jangan bicara, bertindak saja. Jangan katakan, tunjukkan saja. Jangan janji, buktikan saja.",
-  "Jangan pernah berhenti melakukan yang terbaik hanya karena seseorang tidak memberi Anda penghargaan.",
-  "Bekerja saat mereka tidur. Belajar saat mereka berpesta. Hemat sementara mereka menghabiskan. Hiduplah seperti mimpi mereka.",
-  "Kunci sukses adalah memusatkan pikiran sadar kita pada hal-hal yang kita inginkan, bukan hal-hal yang kita takuti.",
-  "Jangan takut gagal. Ketakutan berada di tempat yang sama tahun depan seperti Anda saat ini.",
+  "Do not talk, just act. Don't say, just show me. Don't promise, just prove it.",
+  "Save while they spend. Live like their dreams.",
+  "The key to success is to focus our conscious thoughts on the things we want, THE DREAM.",
+  "LET EVERYONE TALK U JUST FOCUS.This.",
   "Jika kita terus melakukan apa yang kita lakukan, kita akan terus mendapatkan apa yang kita dapatkan.",
   "Jika Anda tidak dapat mengatasi stres, Anda tidak akan mengelola kesuksesan.",
   "Bersikap keras kepala tentang tujuan Anda dan fleksibel tentang metode Anda.",
