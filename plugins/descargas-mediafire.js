@@ -7,7 +7,7 @@ try {
 let res = await mediafireDl(args[0])
 let { name, size, date, mime, link } = res
 let caption = `${eg}
-┃ 𓃠 *${gt} ${vs}* 
+┃ 𓃠 *GLITCH-MD* 
 ┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 ┃ 💫 ${mid.name}
 ┃ ${name}
@@ -18,7 +18,7 @@ let caption = `${eg}
 ┃ 🚀 ${mid.smsYT12}
 ┃ ${mime}`.trim()
 conn.reply(m.chat, caption, m, {
-contextInfo: { externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, title: wm, body: 'Super Bot WhatsApp', previewType: 0, thumbnail: gataMenu, sourceUrl: md}}})
+contextInfo: { externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, title: wm, body: '𓆩✮͢𝘿𝙞𝙥𝙖𝙠 𝙎𝙝𝙖𝙧𝙢𝙖𓆪', previewType: 0, thumbnail: gataMenu, sourceUrl: md}}})
 await conn.sendFile(m.chat, link, name, '', m, null, { mimetype: mime, asDocument: true })
 } catch (e) {
 await conn.reply(m.chat, `${lenguajeGB['smsMalError3']()}#report ${lenguajeGB['smsMensError2']()} ${usedPrefix + command}\n\n${wm}`, m)
