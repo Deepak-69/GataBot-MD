@@ -471,13 +471,13 @@ ${m.isGroup ? `` : `${lenguajeGB.smsConfi9()}`}
 
 ✦ ${lenguajeGB.smsParaAdmins()} ${m.isGroup ? chat.game ? '✅' : '❌' : lenguajeGB.smsNoGg()}
 ✦ ${usedPrefix + command} juegos
-✦ 👾 Activar / desactivar los Juegos
+✦ 👾 Activate / 
 
 ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 
 ✦ ${lenguajeGB.smsParaAdmins()} ${m.isGroup ? chat.ruleta ? '✅' : '❌' : lenguajeGB.smsNoGg()}
 ✦ ${usedPrefix + command} game2
-✦ 👽 Activar / desactivar la ruletas rusa 
+✦ 👽 Activate / deactivate Russian roulette 
 
 ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 
@@ -489,7 +489,7 @@ ${m.isGroup ? `` : `${lenguajeGB.smsConfi9()}`}
 
 ✦ ${lenguajeGB.smsParaOw()} ${bot.antiPrivate ? '✅' : '❌'}
 ✦ ${usedPrefix + command} antiprivado
-✦ Prohibido usar el bot en privado
+✦ It is prohibited to use the bot in private
 
 ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 
@@ -555,13 +555,13 @@ ${m.isGroup ? `` : `${lenguajeGB.smsConfi9()}`}
 
 ✦ ${lenguajeGB.smsParaAdmins()} ${m.isGroup ? chat.modoia ? '✅' : '❌' : lenguajeGB.smsNoGg()}
 ✦ ${usedPrefix + command} chatgpt
-✦ Se activa el modo "Inteligencia Artificial" con ChatGPT en todos los chats privados.
+✦ "Artificial Intelligence" mode is activated with ChatGPT in all private chats.
 
 ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 
 ✦ ${lenguajeGB.smsParaAdmins()} ${m.isGroup ? chat.simi ? '✅' : '❌' : lenguajeGB.smsNoGg()}
 ✦ ${usedPrefix + command} chatbot
-✦ El bot empezará interactúa con los usuarios del Grupo.
+✦ The bot will begin interacting with the Group users.
 
 ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 
@@ -573,7 +573,7 @@ ${m.isGroup ? `` : `${lenguajeGB.smsConfi9()}`}
 
 ✦ ${lenguajeGB.smsParaAdYOw()}  ${m.isGroup ? chat.modohorny ? '✅' : '❌' : lenguajeGB.smsNoGg()} 
 ✦ ${usedPrefix + command} modocaliente
-✦ Activa o desactiva los comandos +18 en el grupo.
+✦ Activate or deactivate +18 commands in the group.
 
 ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 
@@ -597,7 +597,7 @@ ${m.isGroup ? `` : `${lenguajeGB.smsConfi9()}`}
 
 ✦ ${lenguajeGB.smsParaAdmins()} ${m.isGroup ? chat.antiTraba ? '✅' : '❌' : lenguajeGB.smsNoGg()}
 ✦ ${usedPrefix + command} antitraba
-✦ El Bot detecta textos largos que podrian ser virus y causar lag en el chat y elimina al usuario.
+✦ The Bot detects long texts that could be viruses and cause chat lag and eliminates the user.
 
 ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 
