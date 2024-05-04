@@ -17,5 +17,5 @@ handler.limit = false
 }};
 handler.command = /^(apkmod|apk|modapk|dapk2|aptoide|aptoidedl)$/i;
 handler.register = true
-handler.limit = 2
+handler.limit = 3
 export default handler;
