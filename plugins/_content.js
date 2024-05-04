@@ -15,14 +15,14 @@ let { accounts, channels, groups, collaboration, sponsors, others } = data.info
 
 global.yt = accounts.youTube
 global.yt2 = others.yt_vid
-global.ig = accounts.instagram
+global.ig = https://www.instagram.com/dipak_sharma_404?igsh=MTZ3bHB5cDdlY20xaw==
 global.md = accounts.gatabot_md
 global.fb = accounts.facebook
 global.tk = accounts.tiktok
 global.ths = accounts.threads
-global.paypal = accounts.paypal
-global.asistencia = others.assistance_num
-global.bot = 'wa.me/50238024328'
+global.paypal = dipak69
+global.asistencia = 'wa.me/918252005404'
+global.bot = 'wa.me/918252005404'
 global.cuentas = accounts.all
 
 global.canal1 = channels.channel1
@@ -121,16 +121,15 @@ let ftroli = { key: { remoteJid: 'status@broadcast', participant: '0@s.whatsapp.
 let fgif = {key: {participant : '0@s.whatsapp.net'}, message: {"videoMessage": { "title": wm, "h": `Hmm`, 'seconds': '999999999', 'gifPlayback': 'true', 'caption': bottime, 'jpegThumbnail': fs.readFileSync('./media/menus/Menu3.jpg')}}}
                              
 let enlace = { contextInfo: { externalAdReply: {title: wm + ' 🐈', body: 'support group' , sourceUrl: redesMenu, thumbnail: await(await fetch(gataMenu)).buffer() }}}
-let enlace2 = { contextInfo: { externalAdReply: { showAdAttribution: true, mediaUrl: yt, mediaType: 'VIDEO', description: '', title: wm, body: '😻 𝗦𝘂𝗽𝗲𝗿 𝗚𝗮𝘁𝗮𝗕𝗼𝘁-𝗠𝗗 - 𝗪𝗵𝗮𝘁𝘀𝗔𝗽𝗽 ', thumbnailUrl: gataMenu, sourceUrl: accountsgb }}}
+let enlace2 = { contextInfo: { externalAdReply: { showAdAttribution: true, mediaUrl: yt, mediaType: 'VIDEO', description: '', title: wm, body: '𓆩✮͢𝘿𝙞𝙥𝙖𝙠 𝙎𝙝𝙖𝙧𝙢𝙖𓆪', thumbnailUrl: gataMenu, sourceUrl: accountsgb }}}
 let dos = [enlace, enlace2]  
 
-global.wait = "⌛ *`Cargando...`*\n*✪✦✦⊹⊹⊹⊹⊹⊹⊹⊹✪* `20%`"
-global.waitt = "⏳ *`Cargando....`*\n*✪✦✦✦✦⊹⊹⊹⊹⊹⊹✪* `40%`"
-global.waittt = "⌛ *`Cargando...`*\n*✪✦✦✦✦✦✦⊹⊹⊹⊹✪* `60%`"
-global.waitttt = "⏳ *`Cargando....`*\n*✪✦✦✦✦✦✦✦✦⊹⊹✪* `80%`"
-global.waittttt = "⌛ *`Procesando...`*\n*✪✦✦✦✦✦✦✦✦✦✦✪* `100%`"
-
-global.destraba = `⏰DESTRABA⏰*
+global.wait = "⌛ *`Charging...`*\n*✪✦✦⊹⊹⊹⊹⊹⊹⊹⊹✪* `20%`"
+global.waitt = "⏳ *`Charging....`*\n*✪✦✦✦✦⊹⊹⊹⊹⊹⊹✪* `40%`"
+global.waittt = "⌛ *`Charging...`*\n*✪✦✦✦✦✦✦⊹⊹⊹⊹✪* `60%`"
+global.waitttt = "⏳ *`Charging....`*\n*✪✦✦✦✦✦✦✦✦⊹⊹✪* `80%`"
+global.waittttt = "⌛ *`Processing...`*\n*✪✦✦✦✦✦✦✦✦✦✦✪* `100%`"
+global.destraba = `⏰UNLOCK⏰*
 li.DESTRAVip.to
 2024 🦍💨
 
